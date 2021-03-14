@@ -1,0 +1,21 @@
+@media only screen and (max-width:760px){
+    .col-md-2{
+        padding: 10%;
+    }
+    .linea{
+        border-bottom: 5px solid black;
+    }
+    .fondo2{
+        display: none;
+    }
+    .fondo{
+        background:url('../imagen/fondo-consulta.jpg');
+        position:fixed;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        width: 100%;
+        min-height: 1000px;
+        z-index: -99;
+    }
+}
